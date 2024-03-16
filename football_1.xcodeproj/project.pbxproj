@@ -32,9 +32,6 @@
 		0F6B48242B87ABB70045AF07 /* StatisticPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B48232B87ABB70045AF07 /* StatisticPage.swift */; };
 		0F6B48262B87ADA80045AF07 /* HeadToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B48252B87ADA80045AF07 /* HeadToHead.swift */; };
 		0F6B48282B87AE0C0045AF07 /* PollPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B48272B87AE0C0045AF07 /* PollPage.swift */; };
-		0FC13DD62BA60874002EC45A /* apiHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC13DD32BA60874002EC45A /* apiHelp.swift */; };
-		0FC13DD72BA60874002EC45A /* apicall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC13DD42BA60874002EC45A /* apicall.swift */; };
-		0FC13DD82BA60874002EC45A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC13DD52BA60874002EC45A /* Endpoint.swift */; };
 		0FC13DDB2BA608A2002EC45A /* mainscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC13DDA2BA608A2002EC45A /* mainscreen.swift */; };
 		0FC13DDE2BA608FF002EC45A /* matchboxui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC13DDD2BA608FF002EC45A /* matchboxui.swift */; };
 		0FC13DE02BA60916002EC45A /* customtabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC13DDF2BA60916002EC45A /* customtabview.swift */; };
@@ -75,6 +72,9 @@
 		0FC42B742B90E27C00490053 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC42B732B90E27C00490053 /* WebView.swift */; };
 		0FC42B762B90EBEF00490053 /* M3u8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC42B752B90EBEF00490053 /* M3u8View.swift */; };
 		0FC42B782B90EF3900490053 /* PlayBackWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC42B772B90EF3900490053 /* PlayBackWidget.swift */; };
+		0FC89E322BA61832004BA4DC /* apicall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89E312BA61832004BA4DC /* apicall.swift */; };
+		0FC89E342BA6184F004BA4DC /* apihelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89E332BA6184F004BA4DC /* apihelp.swift */; };
+		0FC89E362BA6187B004BA4DC /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89E352BA6187B004BA4DC /* EndPoint.swift */; };
 		0FF10F782B8C972E00BD834E /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 0FF10F772B8C972E00BD834E /* GoogleMobileAds */; };
 		0FF10F7B2B8C97A100BD834E /* initalAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF10F7A2B8C97A100BD834E /* initalAds.swift */; };
 		0FF10F7D2B8C9A1E00BD834E /* openads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF10F7C2B8C9A1E00BD834E /* openads.swift */; };
@@ -130,9 +130,6 @@
 		0F6B48232B87ABB70045AF07 /* StatisticPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticPage.swift; sourceTree = "<group>"; };
 		0F6B48252B87ADA80045AF07 /* HeadToHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadToHead.swift; sourceTree = "<group>"; };
 		0F6B48272B87AE0C0045AF07 /* PollPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollPage.swift; sourceTree = "<group>"; };
-		0FC13DD32BA60874002EC45A /* apiHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiHelp.swift; sourceTree = "<group>"; };
-		0FC13DD42BA60874002EC45A /* apicall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apicall.swift; sourceTree = "<group>"; };
-		0FC13DD52BA60874002EC45A /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		0FC13DDA2BA608A2002EC45A /* mainscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainscreen.swift; sourceTree = "<group>"; };
 		0FC13DDD2BA608FF002EC45A /* matchboxui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchboxui.swift; sourceTree = "<group>"; };
 		0FC13DDF2BA60916002EC45A /* customtabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customtabview.swift; sourceTree = "<group>"; };
@@ -172,6 +169,9 @@
 		0FC42B732B90E27C00490053 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		0FC42B752B90EBEF00490053 /* M3u8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3u8View.swift; sourceTree = "<group>"; };
 		0FC42B772B90EF3900490053 /* PlayBackWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBackWidget.swift; sourceTree = "<group>"; };
+		0FC89E312BA61832004BA4DC /* apicall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apicall.swift; sourceTree = "<group>"; };
+		0FC89E332BA6184F004BA4DC /* apihelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apihelp.swift; sourceTree = "<group>"; };
+		0FC89E352BA6187B004BA4DC /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		0FF10F7A2B8C97A100BD834E /* initalAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initalAds.swift; sourceTree = "<group>"; };
 		0FF10F7C2B8C9A1E00BD834E /* openads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openads.swift; sourceTree = "<group>"; };
 		0FF10F7F2B8C9EDB00BD834E /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 				0F02BC2B2B865A00004BDED1 /* HomePage */,
 				0FC13DD92BA6088B002EC45A /* Mainscreen */,
 				0FC13DF82BA6098B002EC45A /* ModelData */,
-				0FC13DD22BA60874002EC45A /* Api */,
+				0FC89E302BA61812004BA4DC /* Api */,
 				0FC13DDC2BA608E7002EC45A /* View */,
 				0F35985D2B8652DA00CE40B7 /* football_1App.swift */,
 				0F35985F2B8652DA00CE40B7 /* ContentView.swift */,
@@ -349,17 +349,6 @@
 				0F6B48272B87AE0C0045AF07 /* PollPage.swift */,
 			);
 			path = MatchDetails;
-			sourceTree = "<group>";
-		};
-		0FC13DD22BA60874002EC45A /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				0FC13DD32BA60874002EC45A /* apiHelp.swift */,
-				0FC13DD42BA60874002EC45A /* apicall.swift */,
-				0FC13DD52BA60874002EC45A /* Endpoint.swift */,
-			);
-			name = Api;
-			path = ../../Api;
 			sourceTree = "<group>";
 		};
 		0FC13DD92BA6088B002EC45A /* Mainscreen */ = {
@@ -436,6 +425,16 @@
 				0FC13E362BA60C60002EC45A /* leaguerecentPage.swift */,
 			);
 			path = LeagueDetailsData;
+			sourceTree = "<group>";
+		};
+		0FC89E302BA61812004BA4DC /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0FC89E312BA61832004BA4DC /* apicall.swift */,
+				0FC89E332BA6184F004BA4DC /* apihelp.swift */,
+				0FC89E352BA6187B004BA4DC /* EndPoint.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 		0FF10F792B8C978B00BD834E /* Ads */ = {
@@ -609,6 +608,7 @@
 				0FF10F842B8CA65A00BD834E /* interstitialads.swift in Sources */,
 				0FC13E252BA60B82002EC45A /* timerpage.swift in Sources */,
 				0FC13DFA2BA609AB002EC45A /* leagueStanding.swift in Sources */,
+				0FC89E342BA6184F004BA4DC /* apihelp.swift in Sources */,
 				0FC13DE22BA60927002EC45A /* LeagueUi.swift in Sources */,
 				0FC13E212BA60B66002EC45A /* webView.swift in Sources */,
 				0FF10F802B8C9EDB00BD834E /* splashScreen.swift in Sources */,
@@ -616,6 +616,7 @@
 				0FC42B702B90DD6200490053 /* Livevideo.swift in Sources */,
 				0F6960232B8AD6F5003918F6 /* teaminformation.swift in Sources */,
 				0FC13DE02BA60916002EC45A /* customtabview.swift in Sources */,
+				0FC89E322BA61832004BA4DC /* apicall.swift in Sources */,
 				0F02BC332B865A55004BDED1 /* LiveStream.swift in Sources */,
 				0F35985E2B8652DA00CE40B7 /* football_1App.swift in Sources */,
 				0FC13E312BA60C25002EC45A /* leagueTopScorePage.swift in Sources */,
@@ -635,7 +636,6 @@
 				0F69601C2B8AD675003918F6 /* TeamDetailsPage.swift in Sources */,
 				0FC13E2C2BA60BD9002EC45A /* playerdetails.swift in Sources */,
 				0FC13E1C2BA60B12002EC45A /* playersquad.swift in Sources */,
-				0FC13DD72BA60874002EC45A /* apicall.swift in Sources */,
 				0FC13E102BA60A99002EC45A /* leagueTopScore.swift in Sources */,
 				0FC13E1F2BA60B5B002EC45A /* customNavLink.swift in Sources */,
 				0F6960222B8AD6F5003918F6 /* teamPlayerPage.swift in Sources */,
@@ -655,13 +655,12 @@
 				0FC13E352BA60C4F002EC45A /* leagueDetails.swift in Sources */,
 				0F6B48282B87AE0C0045AF07 /* PollPage.swift in Sources */,
 				0FF10F7D2B8C9A1E00BD834E /* openads.swift in Sources */,
+				0FC89E362BA6187B004BA4DC /* EndPoint.swift in Sources */,
 				0F6B481E2B879C5A0045AF07 /* EventPage.swift in Sources */,
 				0FC13E0A2BA60A59002EC45A /* singlePlayerDetails.swift in Sources */,
-				0FC13DD62BA60874002EC45A /* apiHelp.swift in Sources */,
 				0FC13E082BA60A3A002EC45A /* matchFilter.swift in Sources */,
 				0FC13E122BA60AAA002EC45A /* ads.swift in Sources */,
 				0FC13DFE2BA609D1002EC45A /* playerTransfer.swift in Sources */,
-				0FC13DD82BA60874002EC45A /* Endpoint.swift in Sources */,
 				0FC13E2F2BA60C0B002EC45A /* leagueFixturePage.swift in Sources */,
 				0FC13E272BA60B91002EC45A /* string.swift in Sources */,
 				0FF10F7B2B8C97A100BD834E /* initalAds.swift in Sources */,
